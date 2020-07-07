@@ -1,10 +1,14 @@
 class Sbp < Formula
   desc "Simple Bash Prompt"
   homepage "https://github.com/brujoand/sbp"
-  url "https://github.com/brujoand/sbp/releases/download/v0.1.0/sbp-vv0.1.0.tar.gz"
-  sha256 "15d8576704e34c7bd9582aeb1ed9eba36a029d8703e09d4ab384ac5ab16b54a6"
+  url "https://github.com/brujoand/sbp/releases/download/v0.1.1/sbp-v0.1.1.tar.gz"
+  sha256 "57a7da0717b2615a0b8566e40bdc7bce0ede98d98edab55069a462cbd2f7c33f"
 
   depends_on "bash"
+
+  def install
+    prefix.install Dir["*"]
+  end
 
   def caveats
     <<~EOS
