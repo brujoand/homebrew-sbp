@@ -16,5 +16,4 @@ class Sbp < Formula
       Alternatively just execute "#{opt_prefix}/bin/install".
     EOS
   end
-
 end
