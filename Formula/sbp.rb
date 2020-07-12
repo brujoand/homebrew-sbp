@@ -1,8 +1,8 @@
 class Sbp < Formula
   desc "Simple Bash Prompt"
   homepage "https://github.com/brujoand/sbp"
-  url "https://github.com/brujoand/sbp/releases/download/v0.1.1/sbp-v0.1.1.tar.gz"
-  sha256 "57a7da0717b2615a0b8566e40bdc7bce0ede98d98edab55069a462cbd2f7c33f"
+  url "https://github.com/brujoand/sbp/releases/download/v0.2.2/sbp-v0.2.2.tar.gz"
+  sha256 "a447f4385a9887fd2f236cf2e5f7a16158a8adf4e68800b9dcb2e6e93e4afa92"
 
   depends_on "bash"
 
